@@ -1,11 +1,20 @@
+<html>
 
-<center>Paul Bessler's Project Portfolio</center>
+<body style="font-family: sans-serif; color: black; background-image: linear-gradient(to bottom, red, yellow);"></body>
+
+<header style="font-size:30px; background-color: ; width: ; height: ; margin: ; padding-left: 100px;">
+    <h1>Paul Bessler</h1>
+</header>
+
+<div style="line-height: 200%; padding-left: 100px; padding-right: 100px;">
+    <p>Hi, I'm Paul. I am currently pursuing my bachelors degree in Electrical and Computer Engineering at the University of Texas at Austin with a focus in Computer Architecture and Embedded Systems. Currently I am performing research on stochastic computing using Magnetic Tunnel Junctions at the Integrated Nano Computing (INC) Lab at UT.</p>
+
+    <p>Some of my hobbies include rock climbing, watching movies, and 3D printing.</p>
+
+    <h2 style="background-color: ; padding-top: 50px">Welcome To My Portfolio</h2>
+
+    <p>Feel free to look around and explore some of the many academic and personal projects that I have worked on. As a developing computer engineer, my goal is to explore as many aspects of this field as possible through professional, academic, and personal projects. My projects can be found under the "Projects" tab along with explanations and pictures of each project. Feel free to reach out using my information below!</p>
+</div>
 
 
-Hi, I'm Paul. I am currently pursuing my bachelors degree in Electrical and Computer Engineering at the University of Texas at Austin with a focus in Computer Architecture and Embedded Systems. Currently I am performing research on stochastic computing using Magnetic Tunnel Junctions at the Integrated Nano Computing (INC) Lab at UT.
-
-Some of my hobbies include rock climbing, watching movies, and 3D printing.
-
-Welcome To My Portfolio
-
-Feel free to look around and explore some of the many academic and personal projects that I have worked on. As a developing computer engineer, my goal is to explore as many aspects of this field as possible through professional, academic, and personal projects. My projects can be found under the "Projects" tab along with explanations and pictures of each project. Feel free to reach out using my information below!
+</html>
