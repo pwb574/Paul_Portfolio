@@ -4,12 +4,11 @@ Hi, I'm Paul. I am currently pursuing my bachelors degree in Electrical and Comp
 
 Some of my hobbies include rock climbing, watching movies, and 3D printing.
 
-### Markdown
+### Welcome To My Portfolio
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Feel free to look around and explore some of the many academic and personal projects that I have worked on. As a developing computer engineer, my goal is to explore as many aspects of this field as possible through professional, academic, and personal projects. My projects can be found under the "Projects" tab along with explanations and pictures of each project. Feel free to reach out using my information below!
 
 ```markdown
-Syntax highlighted code block
 
 # Header 1
 ## Header 2
