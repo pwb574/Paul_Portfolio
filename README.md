@@ -1,8 +1,8 @@
 ## Paul Bessler
 
-You can use the [editor on GitHub](https://github.com/pwb574/Paul_Portfolio/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Hi, I'm Paul. I am currently pursuing my bachelors degree in Electrical and Computer Engineering at the University of Texas at Austin with a focus in Computer Architecture and Embedded Systems. Currently I am performing research on stochastic computing using Magnetic Tunnel Junctions at the Integrated Nano Computing (INC) Lab at UT.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Some of my hobbies include rock climbing, watching movies, and 3D printing.
 
 ### Markdown
 
