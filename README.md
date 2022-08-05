@@ -9,6 +9,8 @@
 <div style="font-size: 110%; line-height: 200%; padding-left: 10%; width: 550px;">
     <p>Hi, I'm Paul. I am currently pursuing my bachelors degree in Electrical and Computer Engineering at the University of Texas at Austin with a focus in Computer Architecture and Embedded Systems. Currently I am performing research on stochastic computing using Magnetic Tunnel Junctions at the Integrated Nano Computing (INC) Lab at UT.</p>
 
+    <img src="https://github.com/pwb574/Pauls_Portfolio/blob/main/PaulB.png"/>
+
     <p>Some of my hobbies include rock climbing, watching movies, and 3D printing.</p>
 
     <h2 style="background-color: ; padding-top: 50px">Welcome To My Portfolio</h2>
