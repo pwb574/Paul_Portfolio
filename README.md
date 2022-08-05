@@ -6,7 +6,7 @@
     <h1 style="border-style: solid; border-width: 5px; width: 331px">Paul Bessler</h1>
 </header>
 
-<div style="font-size: 110%; line-height: 200%; padding-left: 10%; padding-right: 10%;">
+<div style="font-size: 110%; line-height: 200%; padding-left: 10%; width: 550px;">
     <p>Hi, I'm Paul. I am currently pursuing my bachelors degree in Electrical and Computer Engineering at the University of Texas at Austin with a focus in Computer Architecture and Embedded Systems. Currently I am performing research on stochastic computing using Magnetic Tunnel Junctions at the Integrated Nano Computing (INC) Lab at UT.</p>
 
     <p>Some of my hobbies include rock climbing, watching movies, and 3D printing.</p>
