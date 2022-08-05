@@ -7,7 +7,7 @@
 </header>
 
 <div>
-    <div style="float:right; padding: 10px;">
+    <div style="float:right; padding: 10px; border-radius: 50%; overflow: hidden;">
         <img src="https://github.com/pwb574/Pauls_Portfolio/blob/main/Images/PaulB.png?raw=true"/>
     </div>
 
