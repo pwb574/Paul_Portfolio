@@ -7,7 +7,7 @@
 </header>
 
 
-<div style="padding-left: 10%; padding-right-top-bottom: 10px;">
+<div style="padding-left: 10%;">
         <img style="float: right; border-radius: 48%; max-width: 50%; height: auto;" src="https://github.com/pwb574/Pauls_Portfolio/blob/main/Images/Paul_TIW.jpg?raw=true"/>
 </div>
 
