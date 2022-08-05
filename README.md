@@ -3,7 +3,7 @@
 <body style="font-family: sans-serif; color: black; background-image: linear-gradient(to bottom, lightskyblue, lavender);"></body>
 
 <header style="font-size: 170%; padding-left: 10%;">
-    <h1 style="border-style: solid; width: 63%">Paul Bessler</h1>
+    <h1 style="border-style: solid; border-width: 5px; width: 331px">Paul Bessler</h1>
 </header>
 
 <div style="font-size: 110%; line-height: 200%; padding-left: 10%; padding-right: 10%;">
