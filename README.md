@@ -7,8 +7,8 @@
 </header>
 
 <div>
-    <div style="float:right; padding: 10px; border-radius: 50%; overflow: hidden; max-width: 100%; height: auto; object-fit: cover;">
-        <img src="https://github.com/pwb574/Pauls_Portfolio/blob/main/Images/PaulB.png?raw=true"/>
+    <div style="float:right; padding-left: 10%; padding-right-top-bottom: 10px; overflow: hidden;  object-fit: contain;">
+        <img style="border-radius: 48%; max-width: 70%; height: auto;" src="https://github.com/pwb574/Pauls_Portfolio/blob/main/Images/Paul_TIW.jpg?raw=true"/>
     </div>
 
     <div style="font-size: 110%; line-height: 200%; padding-left: 10%; max-width: 550px;">
