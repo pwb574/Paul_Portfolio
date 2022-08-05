@@ -2,11 +2,11 @@
 
 <body style="font-family: sans-serif; color: black; background-image: linear-gradient(to bottom, red, yellow);"></body>
 
-<header style="font-size:30px; background-color: ; width: ; height: ; margin: ; padding-left: 100px;">
+<header style="font-size: 170%; background-color: ; width: ; height: ; margin: ; padding-left: 30%;">
     <h1>Paul Bessler</h1>
 </header>
 
-<div style="line-height: 200%; padding-left: 100px; padding-right: 100px;">
+<div style="font-size: 110%; line-height: 200%; padding-left: 30%; padding-right: 30%;">
     <p>Hi, I'm Paul. I am currently pursuing my bachelors degree in Electrical and Computer Engineering at the University of Texas at Austin with a focus in Computer Architecture and Embedded Systems. Currently I am performing research on stochastic computing using Magnetic Tunnel Junctions at the Integrated Nano Computing (INC) Lab at UT.</p>
 
     <p>Some of my hobbies include rock climbing, watching movies, and 3D printing.</p>
