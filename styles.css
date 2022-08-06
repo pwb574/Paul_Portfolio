@@ -11,7 +11,7 @@ body{
 }
 .pdf {
   width: 750px;
-  height: 700px;
+  height: 850px;
 }
 
 .main {
@@ -65,9 +65,9 @@ body{
 @media (orientation: vertical) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
-  .sidenav {width: 100px;}
-  .pfp {max-width: 100%;}
+  .sidenav {width: 20%;}
+  .pfp {max-width: 50%;}
   .pfp {float: none;}
-  .pdf {width: 100%;}
+  .pdf {width: 200px;}
   .pdf {height: 800px;}
 }
