@@ -89,5 +89,6 @@ body{
   }
   .pdf {
       width: 8vw;
+      height: 100%;
   }
 }
