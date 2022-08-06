@@ -9,6 +9,10 @@ body{
     max-width: 1000px;
     font-family: sans-serif; 
 }
+.pdf {
+  width: 50%;
+  height: auto;
+}
 
 .main {
   font-size: 110%; 
