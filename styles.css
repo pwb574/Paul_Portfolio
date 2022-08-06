@@ -18,6 +18,12 @@ body{
   display: inline-block;
 }
 
+.header {
+  display: inline; 
+  border-style: solid; 
+  border-width: 5px;
+}
+
 .pfp {
     float: right; 
     border-radius: 48%; 
