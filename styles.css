@@ -61,16 +61,14 @@ body{
   background-color: #111;
 }
 
-/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+/* On smaller screens, where height is less than 900px, change the style of the sidebar (less padding and a smaller font size) */
 @media screen and (max-width: 900px) {
-  .body {
-    display: inline-block;
-    margin: 0px;
+  body {
+    margin-left: 18vw;
   }
   .sidenav {
       padding-top: 15px;
-      width: 17%;
-      padding-right: 0px;
+      width: 15vw;
   }
   .sidenav a {
       font-size: 4vw;
@@ -80,16 +78,13 @@ body{
       font-size: 8vw;
   }
   .main {
-      max-width: 100vw;
-      margin-right: 8vw;
-      
+      max-width: 71vw;
   }
   .genText {
       font-size: 3vw;
   }
   .pfp {
       max-width: 100%;
-      float: none;
       height: auto;
   }
   .pdf {
