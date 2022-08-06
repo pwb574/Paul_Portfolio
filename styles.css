@@ -71,7 +71,7 @@ body{
       width: 15vw;
   }
   .sidenav a {
-      font-size: 4vw;
+      font-size: 3vw;
       padding: 1vw;
   }
   .header {
@@ -88,7 +88,7 @@ body{
       height: auto;
   }
   .pdf {
-      width: 8vw;
+      width: 73vw;
       height: 100%;
   }
 }
