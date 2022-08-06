@@ -66,4 +66,6 @@ body{
   .sidenav a {font-size: 18px;}
   .pfp {max-width: 100%;}
   .pfp {float: none;}
+  .pdf {width: 100%;}
+  .pdf {height: 800px;}
 }
