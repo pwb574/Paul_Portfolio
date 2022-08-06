@@ -10,7 +10,7 @@ body{
     font-family: sans-serif; 
 }
 .pdf {
-  width: 50%;
+  max-width: 100%;
   height: auto;
 }
 
