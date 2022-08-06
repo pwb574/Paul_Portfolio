@@ -11,6 +11,7 @@ body{
 }
 .pdf {
   width: 750px;
+  height: 700px;
 }
 
 .main {
@@ -64,6 +65,7 @@ body{
 @media screen and (max-width: 970px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+  .sidenav {width: 100px;}
   .pfp {max-width: 100%;}
   .pfp {float: none;}
   .pdf {width: 100%;}
