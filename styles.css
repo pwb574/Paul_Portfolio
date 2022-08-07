@@ -150,4 +150,8 @@ input[type=text], select, textarea {
     padding: 0.5vw 0vw 3vw 0vw;
     margin: 0vw 0vw 6vw 0vw;
   }
+
+  .bg {
+    display: none;
+  }
 }
