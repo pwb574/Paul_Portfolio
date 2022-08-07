@@ -70,7 +70,7 @@ input[type=text], select, textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
-  border-radius: 100px;
+  border-radius: 20px;
 }
 
 .contact_form {
@@ -114,5 +114,20 @@ input[type=text], select, textarea {
   }
   input[type=text], select, textarea {
     border-radius: 20px;
+  }
+  .contact_form {
+    float: none;
+    font-size: 5vw;
+    width: 62vw;
+    background: none;
+  }
+
+  .contact_info {
+    float: none;
+    width: 74vw;
+    font-size: 5vw;
+    text-align: center;
+    padding: 0.5vw 0vw 2vw 0vw;
+    margin-bottom: 6vw;
   }
 }
