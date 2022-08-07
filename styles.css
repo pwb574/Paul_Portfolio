@@ -103,6 +103,17 @@ input[type=text], select, textarea {
   fill: lightblue;
 }
 
+.button {
+  color: white;
+  box-shadow: 0.1vw 0.1vw 1vw 0.1vw black inset;
+  padding: 0.75vw;
+  text-align: center;
+  display: inline-block;
+  font-size: 1.5vw;
+  border-radius: 1vw;
+  margin-top: 1vw;
+}
+
 /* On smaller screens, where height is less than 900px, change the style of the sidebar (less padding and a smaller font size) */
 @media screen and (max-width: 900px) {
   body {
@@ -159,4 +170,10 @@ input[type=text], select, textarea {
   #contact_title {
     display: none;
   }
+
+  .button {
+    display: block;
+    font-size: 5vw;
+  }
+
 }
