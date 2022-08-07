@@ -79,6 +79,7 @@ body{
   }
   .main {
       max-width: 71vw;
+      line-height: 110%;
   }
   .genText {
       font-size: 3vw;
@@ -88,7 +89,7 @@ body{
       height: auto;
   }
   .pdf {
-      width: 73vw;
+      max-width: 73vw;
       height: 100%;
   }
 }
