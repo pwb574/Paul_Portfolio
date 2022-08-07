@@ -63,6 +63,21 @@ body{
   background-color: #111;
 }
 
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.contact_form {
+  display: table;
+  float: left;
+  margin: 0vw 5vw 5vw 2vw;
+}
+
 /* On smaller screens, where height is less than 900px, change the style of the sidebar (less padding and a smaller font size) */
 @media screen and (max-width: 900px) {
   body {
