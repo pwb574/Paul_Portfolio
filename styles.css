@@ -111,7 +111,13 @@ input[type=text], select, textarea {
   display: inline-block;
   font-size: 1.5vw;
   border-radius: 1vw;
-  margin-top: 1vw;
+  margin: 1vw 1vw 1vw 0vw;
+  opacity: 90%;
+}
+
+.button:hover{
+  border: 2px solid tomato;
+  opacity: 100%;
 }
 
 /* On smaller screens, where height is less than 900px, change the style of the sidebar (less padding and a smaller font size) */
