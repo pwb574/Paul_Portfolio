@@ -74,19 +74,21 @@ input[type=text], select, textarea {
 }
 
 .contact_form {
-  float: none;
-  font-size: 5vw;
-  width: 62vw;
-  background: none;
+  float: left;
+  background: grey;
+  padding: 2vw 3vw 1vw 1vw;
+  width: 39vw;
+  border-radius: 20px;
+  margin-bottom: 2vw;
 }
 
 .contact_info {
-  float: none;
-  width: 74vw;
-  font-size: 5vw;
-  text-align: center;
-  padding: 0.5vw 0vw 3vw 0vw;
-  margin-bottom: 6vw;
+  float: right;
+  background: purple;
+  margin-right: 1vw;
+  padding: 0vw 0vw 1vw 1vw;
+  width: 39vw;
+  border-radius: 20px;
 }
 
 /* On smaller screens, where height is less than 900px, change the style of the sidebar (less padding and a smaller font size) */
