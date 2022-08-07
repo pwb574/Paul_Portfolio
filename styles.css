@@ -70,7 +70,7 @@ input[type=text], select, textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
-  border-radius: 20px;
+  border-radius: 100px;
 }
 
 .contact_form {
@@ -111,5 +111,8 @@ input[type=text], select, textarea {
   .pdf {
       max-width: 73vw;
       height: 100%;
+  }
+  input[type=text], select, textarea {
+    border-radius: 20px;
   }
 }
