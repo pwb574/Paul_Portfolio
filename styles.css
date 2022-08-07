@@ -90,6 +90,7 @@ body{
   .pfp {
       max-width: 100%;
       height: auto;
+      padding-bottom: 5vw;
   }
   .pdf {
       max-width: 73vw;
