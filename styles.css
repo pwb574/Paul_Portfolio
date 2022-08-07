@@ -70,13 +70,13 @@ input[type=text], select, textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+  border-radius: 20px;
 }
 
 .contact_form {
   display: table;
   float: left;
   margin: 0vw 5vw 5vw 2vw;
-  border-radius: 30%;
 }
 
 /* On smaller screens, where height is less than 900px, change the style of the sidebar (less padding and a smaller font size) */
