@@ -151,7 +151,7 @@ input[type=text], select, textarea {
     margin: 0vw 0vw 6vw 0vw;
   }
 
-  .bg {
+  #contact_title {
     display: none;
   }
 }
