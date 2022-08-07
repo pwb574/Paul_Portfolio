@@ -37,8 +37,7 @@ body{
   border-radius: 48%;
   max-width: 440px;
   height: auto;
-  margin-left: 2vw;
-  padding: 1vw 2vw 2vw 0vw;
+  padding: 1vw 2vw 2vw 1vw;
 }
 
 .sidenav {
