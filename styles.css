@@ -76,6 +76,7 @@ input[type=text], select, textarea {
 .contact_form {
   float: left;
   background: grey;
+  box-shadow: 0.1vw 0.1vw 1vw 0.1vw black inset;
   padding: 2vw 3vw 1vw 1vw;
   max-width: 40vw;
   border-radius: 20px;
@@ -85,10 +86,16 @@ input[type=text], select, textarea {
 .contact_info {
   float: right;
   background: purple;
+  box-shadow: 0.1vw 0.1vw 0.5vw 0.1vw black inset;
   margin: 0vw 0vw 0vw 2vw;
-  padding: 0vw 0vw 1vw 1vw;
-  max-width: 40vw;
+  padding: 0vw 2vw 1vw 1vw;
+  max-width: 45vw;
   border-radius: 20px;
+}
+
+/*Color for linkedin icon on a hover*/
+.bi:hover {
+  fill: lightblue;
 }
 
 /* On smaller screens, where height is less than 900px, change the style of the sidebar (less padding and a smaller font size) */
@@ -132,6 +139,7 @@ input[type=text], select, textarea {
     font-size: 5vw;
     max-width: 59vw;
     background: none;
+    box-shadow: none;
   }
 
   .contact_info {
