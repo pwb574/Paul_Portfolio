@@ -77,7 +77,7 @@ input[type=text], select, textarea {
   float: left;
   background: grey;
   padding: 2vw 3vw 1vw 1vw;
-  width: 39vw;
+  max-width: 40vw;
   border-radius: 20px;
   margin-bottom: 2vw;
 }
@@ -85,9 +85,9 @@ input[type=text], select, textarea {
 .contact_info {
   float: right;
   background: purple;
-  margin-right: 1vw;
+  margin: 0vw 0vw 0vw 2vw;
   padding: 0vw 0vw 1vw 1vw;
-  width: 39vw;
+  max-width: 40vw;
   border-radius: 20px;
 }
 
@@ -130,16 +130,16 @@ input[type=text], select, textarea {
   .contact_form {
     float: none;
     font-size: 5vw;
-    width: 62vw;
+    max-width: 59vw;
     background: none;
   }
 
   .contact_info {
     float: none;
-    width: 74vw;
+    max-width: 74vw;
     font-size: 5vw;
     text-align: center;
-    padding: 0.5vw 0vw 2vw 0vw;
-    margin-bottom: 6vw;
+    padding: 0.5vw 0vw 3vw 0vw;
+    margin: 0vw 0vw 6vw 0vw;
   }
 }
