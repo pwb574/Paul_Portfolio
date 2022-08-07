@@ -81,10 +81,11 @@ body{
   }
   .main {
       max-width: 71vw;
-      line-height: 110%;
+      line-height: 7vw;
   }
   .genText {
-      font-size: 3vw;
+      font-size: 5vw;
+      max-width: 100%;
   }
   .pfp {
       max-width: 100%;
