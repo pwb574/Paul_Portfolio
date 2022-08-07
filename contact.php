@@ -1,7 +1,7 @@
 <?php
   /*Make sure the form input is good */
   function IsInjected($str)
-  {
+  /*{
       $injections = array('(\n+)',
              '(\r+)',
              '(\t+)',
@@ -28,9 +28,9 @@
   {
       echo "Bad email value!";
       exit;
-  }
+  }*/
 
-  $name = $_POST['fname' + " " + 'lname'];
+  $name = $_POST['name'];
   $visitor_email = $_POST['email'];
   $subject = $_POST['subject'];
   $message = $_POST['message'];
