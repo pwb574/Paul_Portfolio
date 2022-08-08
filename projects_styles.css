@@ -29,7 +29,7 @@ h2 {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .filters {
     text-align: center;
-    margin: auto;
+    padding-top: 10px;
 }
 
 .filters * {
