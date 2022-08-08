@@ -29,6 +29,7 @@ h2 {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .filters {
     text-align: center;
+    margin: auto;
 }
 
 .filters * {
