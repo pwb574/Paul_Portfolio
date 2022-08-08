@@ -1,8 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 img {
     display: block;
     max-width: 100%;
     object-fit: contain;
     border-radius: 20px;
+    margin: 4px;
 }
 
 ol {
@@ -17,11 +23,6 @@ h2 {
     max-width: 100%;
     font-size: 2vw;
     margin: 5px 0px 5px 0px;
-}
-
-* {
-    margin: 0;
-    padding: 0;
 }
 
 /* FILTERS
@@ -69,6 +70,7 @@ h2 {
 .projects .project figcaption{
     font-size: 1.8vw;
     line-height: 2.2vw;
+    margin: 4px;
 }
 
 /* FILTERING RULES
