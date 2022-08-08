@@ -11,7 +11,70 @@
     <a href="/Pauls_Portfolio/resume.html">Resume</a>
     <a href="/Pauls_Portfolio/contact.html">Contact</a>
 </div>
-  
+
 <header style="font-size: 170%;">
-    <h1 class="header"> My Projects <h1>  
+    <h1 class="header"> My Projects <h1>
 </header>
+
+<div class="container">
+
+<input type="radio" id="All" name="categories" value="All" checked>
+<input type="radio" id="acad" name="categories" value="acad">
+<input type="radio" id="pers" name="categories" value="pers">
+<input type="radio" id="othr" name="categories" value="othr">
+
+<ol class="filters">
+    <li>
+        <label for="All">All</label>
+    </li>
+    <li>
+        <label for="acad">Academic</label>
+    </li>
+    <li>
+        <label for="pers">Personal</label>
+    </li>
+    <li>
+        <label for="othr">Other</label>
+    </li>
+</ol>
+
+<ol class="projects">
+    <li class="project" data-category="pers">
+        <article>
+            <figure>
+                <img src="https://github.com/pwb574/Pauls_Portfolio/blob/main/Media/Website.png?raw=true">
+                <h2>Personal  Website (Summer 2022)</h2>
+                <figcaption>
+                    -You are looking at it!<br>-Personal website to display project portfolio</br>-Written in HTML and CSS
+                </figcaption>
+            </figure>
+        </article>
+    </li>
+    <li class="project" data-category="acad">
+        <article>
+            <figure>
+                <img src="https://github.com/pwb574/Pauls_Portfolio/blob/main/Media/Research_Poster.png?raw=true">
+                <h2 class="project-title">
+                    Summer REU Research Poster (Summer 2022)
+                </h2>
+                <figcaption>
+                    -Modeled stochastic computing using a Boltzmann Machine with Magnetic Tunnel Junctions<br> -Funded by the National Science Foundation (NSF)</br>
+                </figcaption>
+            </figure>
+        </article>
+    </li>
+    <li class="project" data-category="acad">
+        <article>
+            <figure>
+                <img src="https://github.com/pwb574/Pauls_Portfolio/blob/main/Media/TM4C2048.png?raw=true">
+                <h2>TM4C 2048 (Fall 2022)</h2>
+                <figcaption>
+                    -Recreated 2048 on the Texas Instruments TM4C Microcontroller<br>-Written in C++</br>-Custom PCB designed in Eagle
+                </figcaption>
+            </figure>
+        </article>
+    </li>
+    
+</div>
+
+</html>

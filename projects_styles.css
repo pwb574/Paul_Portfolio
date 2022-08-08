@@ -1,0 +1,104 @@
+img {
+    display: block;
+    max-width: 100%;
+    object-fit: contain;
+    border-radius: 20px;
+}
+
+ol {
+    list-style: none;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+h2 {
+    max-width: 100%;
+    font-size: 2vw;
+    margin: 5px 0px 5px 0px;
+}
+
+/* FILTERS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.filters {
+    text-align: center;
+}
+
+.filters * {
+    display: inline-block;
+}
+
+.filters label {
+    padding: 0.5vw 2vw;
+    margin-bottom: 1.5vw;
+    border-radius: 20px;
+    line-height: normal;
+    cursor: pointer;
+    font-size: 1vw;
+}
+
+.filters label:hover {
+    background: green;
+    color: white;
+}
+
+
+/* FILTERED ELEMENTS (projectsS)
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.projects {
+    display: grid;
+    margin: auto;
+    max-width: 74vw;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.projects .project {
+    background: lightgrey;
+    border: 1px solid grey;
+    border-radius: 20px;
+    max-width: 30vw;
+    margin: 0vw 0vw 2.5vw 0vw;
+}
+
+/* FILTERING RULES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+[value="All"]:checked~.filters [for="All"],
+[value="acad"]:checked~.filters [for="acad"],
+[value="pers"]:checked~.filters [for="pers"],
+[value="othr"]:checked~.filters [for="othr"] {
+    background: green;
+    color: white;
+}
+
+[value="All"]:checked~.projects [data-category] {
+    display: block;
+}
+
+[value="acad"]:checked~.projects .project:not([data-category~="acad"]),
+[value="pers"]:checked~.projects .project:not([data-category~="pers"]),
+[value="othr"]:checked~.projects .project:not([data-category~="othr"]) {
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    .projects {
+        grid-template-columns: repeat(1, 1fr);
+        margin: auto;
+    }
+    .projects .project {
+        background: lightgrey;
+        border: 1px solid grey;
+        border-radius: 20px;
+        max-width: 65vw;
+        margin: 0vw 55px 2.5vw 0vw;
+    }
+    .filters label {
+        font-size: 3.5vw;
+    }
+    .filters {
+        margin: 0vw 55px 3vw 0vw;
+        text-align: center;
+    }
+}
