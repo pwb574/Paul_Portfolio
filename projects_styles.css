@@ -16,7 +16,7 @@ input[type="radio"] {
 
 h2 {
     max-width: 100%;
-    font-size: 2em; /* Changed to em for scalability */
+    font-size: 1em; /* Changed to em for scalability */
     margin: 5px 0px 5px 0px;
     color: #ffffff; 
 }
@@ -59,7 +59,7 @@ h2 {
     background: #333;
     border: 1px solid #f5f5f5;
     border-radius: 20px;
-    max-width: 30vw;
+    max-width: 20vw;
     margin: 0vw 0vw 2.5vw 0vw;
     color: #f5f5f5;
     padding: 20px; /* Added padding for better spacing */
