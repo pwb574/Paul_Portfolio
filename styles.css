@@ -162,6 +162,5 @@ input[type=text], select, textarea {
   }
   .pdf {
       max-width: 73vw;
-      height: auto;
   }
 }
