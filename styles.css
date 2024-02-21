@@ -1,71 +1,76 @@
 /* Style page content */
 body{
-    background-image: linear-gradient(to bottom, #00f0f0, #eeffff);
-    margin-left: 160px; /* Same as the width of the sidebar */
-    padding: 0px 10px;
+  background-image: linear-gradient(to bottom, #1a2a6c, #b21f1f, #fdbb2d);
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+  color: #f5f5f5; /* Light text color for contrast */
+  font-family: 'Arial', sans-serif;
 }
+
 .genText {
-  max-width: 77vw;
-  font-family: sans-serif; 
+max-width: 77vw;
+font-family: 'Georgia', serif; 
 }
+
 .pdf {
-  width: 750px;
-  height: 850px;
+width: 750px;
+height: 850px;
 }
 
 .main {
-  font-size: 110%;
-  line-height: 200%;
-  max-width: 1000vw;
-  display: inline-block;
-  background: grey;
-  box-shadow: 0.1vw 0.1vw 1vw 0.1vw black inset;
-  padding: 1vw 1vw 1vw 2vw;
-  border-radius: 2vw;
+font-size: 110%;
+line-height: 200%;
+max-width: 1000vw;
+display: inline-block;
+background: #333;
+box-shadow: 0.1vw 0.1vw 1vw 0.1vw black inset;
+padding: 1vw 1vw 1vw 2vw;
+border-radius: 2vw;
 }
 
 .header {
-  display: inline; 
-  border-style: solid; 
-  border-width: 5px;
-  font-size: 55px;
-  padding: 0vw 1vw 0vw 1vw;
-  border-radius: 20px;
+display: inline; 
+border-style: solid; 
+border-width: 5px;
+font-size: 55px;
+padding: 0vw 1vw 0vw 1vw;
+border-radius: 20px;
+color: #fdbb2d; /* Golden color for headers */
 }
 
 .pfp {
-  float: right;
-  border-radius: 48%;
-  max-width: 440px;
-  height: auto;
-  padding: 1vw 2vw 2vw 1vw;
+float: right;
+border-radius: 48%;
+max-width: 440px;
+height: auto;
+padding: 1vw 2vw 2vw 1vw;
 }
 
 .sidenav {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 150px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  left: 0;
-  background-color: #333; /* Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 20px;
+height: 100%; /* Full-height: remove this if you want "auto" height */
+width: 150px; /* Set the width of the sidebar */
+position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+z-index: 1; /* Stay on top */
+top: 0; /* Stay at the top */
+left: 0;
+background-color: #333; /* Dark grey */
+overflow-x: hidden; /* Disable horizontal scroll */
+padding-top: 20px;
 }
 
 /* The navigation menu links */
 .sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: white;
-  display: block;
+padding: 6px 8px 6px 16px;
+text-decoration: none;
+font-size: 25px;
+color: #f5f5f5; /* Light text color for contrast */
+display: block;
 }
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
-  color: orange;
-  background-color: #111;
+color: #fdbb2d; /* Golden color on hover */
+background-color: #111;
 }
 
 input[type=text], select, textarea {
@@ -76,11 +81,13 @@ input[type=text], select, textarea {
   margin-bottom: 16px;
   resize: vertical;
   border-radius: 20px;
+  background-color: #333; /* Dark grey */
+  color: #f5f5f5; /* Light text color for contrast */
 }
 
 .contact_form {
   float: left;
-  background: grey;
+  background: #333; /* Dark grey */
   box-shadow: 0.1vw 0.1vw 1vw 0.1vw black inset;
   padding: 2vw 3vw 1vw 1vw;
   max-width: 40vw;
@@ -90,7 +97,7 @@ input[type=text], select, textarea {
 
 .contact_info {
   float: right;
-  background: purple;
+  background: #1a2a6c; /* Deep blue */
   box-shadow: 0.1vw 0.1vw 0.5vw 0.1vw black inset;
   margin: 0vw 0vw 0vw 2vw;
   padding: 0vw 2vw 1vw 1vw;
@@ -100,11 +107,12 @@ input[type=text], select, textarea {
 
 /*Color for linkedin icon on a hover*/
 .bi:hover {
-  fill: lightblue;
+  fill: #fdbb2d; /* Golden color on hover */
 }
 
 .button {
-  color: white;
+  color: #f5f5f5; /* Light text color for contrast */
+  background-color: #b21f1f; /* Rich red */
   box-shadow: 0.1vw 0.1vw 1vw 0.1vw black inset;
   padding: 0.75vw;
   text-align: center;
@@ -116,7 +124,7 @@ input[type=text], select, textarea {
 }
 
 .button:hover{
-  border: 2px solid tomato;
+  border: 2px solid #fdbb2d; /* Golden color on hover */
   opacity: 100%;
 }
 
@@ -151,35 +159,6 @@ input[type=text], select, textarea {
   }
   .pdf {
       max-width: 73vw;
-      height: 100%;
+      height: auto;
   }
-  input[type=text], select, textarea {
-    border-radius: 20px;
-  }
-  .contact_form {
-    float: none;
-    font-size: 5vw;
-    max-width: 59vw;
-    background: none;
-    box-shadow: none;
-  }
-
-  .contact_info {
-    float: none;
-    max-width: 74vw;
-    font-size: 5vw;
-    text-align: center;
-    padding: 0.5vw 0vw 3vw 0vw;
-    margin: 0vw 0vw 6vw 0vw;
-  }
-
-  #contact_title {
-    display: none;
-  }
-
-  .button {
-    display: block;
-    font-size: 5vw;
-  }
-
 }

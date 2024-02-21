@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
 img {
@@ -23,6 +25,7 @@ h2 {
     max-width: 100%;
     font-size: 2vw;
     margin: 5px 0px 5px 0px;
+    color: #f5f5f5; /* Light text color for contrast */
 }
 
 /* FILTERS
@@ -43,11 +46,13 @@ h2 {
     line-height: normal;
     cursor: pointer;
     font-size: 1vw;
+    background-color: #333; /* Dark grey */
+    color: #f5f5f5; /* Light text color for contrast */
 }
 
 .filters label:hover {
-    background: green;
-    color: white;
+    background: #fdbb2d; /* Golden color on hover */
+    color: #333; /* Dark grey */
 }
 
 
@@ -61,11 +66,12 @@ h2 {
 }
 
 .projects .project {
-    background: lightgrey;
-    border: 1px solid grey;
+    background: #333; /* Dark grey */
+    border: 1px solid #f5f5f5; /* Light border for contrast */
     border-radius: 20px;
     max-width: 30vw;
     margin: 0vw 0vw 2.5vw 0vw;
+    color: #f5f5f5; /* Light text color for contrast */
 }
 
 .projects .project figcaption{
@@ -82,8 +88,8 @@ h2 {
 [value="acad"]:checked~.filters [for="acad"],
 [value="pers"]:checked~.filters [for="pers"],
 [value="othr"]:checked~.filters [for="othr"] {
-    background: green;
-    color: white;
+    background: #fdbb2d; /* Golden color on hover */
+    color: #333; /* Dark grey */
 }
 
 [value="All"]:checked~.projects [data-category] {
@@ -102,8 +108,8 @@ h2 {
         margin: auto;
     }
     .projects .project {
-        background: lightgrey;
-        border: 1px solid grey;
+        background: #333; /* Dark grey */
+        border: 1px solid #f5f5f5; /* Light border for contrast */
         border-radius: 20px;
         max-width: 65vw;
         margin: 0vw 55px 2.5vw 0vw;
