@@ -2,13 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif; /* Changed to a Google Font */
+}
+
+body {
+    background-color: #f0f0f0; /* Added a light background color */
 }
 
 img {
     display: block;
     max-width: 97%;
-    object-fit: contain;
+    object-fit: cover; /* Changed to cover */
     border-radius: 20px;
     margin: 4px;
 }
@@ -23,13 +27,11 @@ input[type="radio"] {
 
 h2 {
     max-width: 100%;
-    font-size: 2vw;
+    font-size: 2.5em; /* Changed to em for scalability */
     margin: 5px 0px 5px 0px;
-    color: #f5f5f5; /* Light text color for contrast */
+    color: #333; /* Darker text color for better readability */
 }
 
-/* FILTERS
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .filters {
     text-align: center;
     padding-top: 20px;
@@ -46,32 +48,32 @@ h2 {
     line-height: normal;
     cursor: pointer;
     font-size: 1vw;
-    background-color: #333; /* Dark grey */
-    color: #f5f5f5; /* Light text color for contrast */
+    background-color: #333;
+    color: #f5f5f5;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Added transition */
 }
 
 .filters label:hover {
-    background: #fdbb2d; /* Golden color on hover */
-    color: #333; /* Dark grey */
+    background: #fdbb2d;
+    color: #333;
 }
 
-
-/* FILTERED ELEMENTS (projectsS)
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .projects {
     display: grid;
     margin: auto;
     max-width: 74vw;
     grid-template-columns: repeat(2, 1fr);
+    gap: 20px; /* Added gap for better spacing */
 }
 
 .projects .project {
-    background: #333; /* Dark grey */
-    border: 1px solid #f5f5f5; /* Light border for contrast */
+    background: #333;
+    border: 1px solid #f5f5f5;
     border-radius: 20px;
     max-width: 30vw;
     margin: 0vw 0vw 2.5vw 0vw;
-    color: #f5f5f5; /* Light text color for contrast */
+    color: #f5f5f5;
+    padding: 20px; /* Added padding for better spacing */
 }
 
 .projects .project figcaption{
@@ -81,15 +83,12 @@ h2 {
     padding-bottom: 5px;
 }
 
-/* FILTERING RULES
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
 [value="All"]:checked~.filters [for="All"],
 [value="acad"]:checked~.filters [for="acad"],
 [value="pers"]:checked~.filters [for="pers"],
 [value="othr"]:checked~.filters [for="othr"] {
-    background: #fdbb2d; /* Golden color on hover */
-    color: #333; /* Dark grey */
+    background: #fdbb2d;
+    color: #333;
 }
 
 [value="All"]:checked~.projects [data-category] {
@@ -108,8 +107,8 @@ h2 {
         margin: auto;
     }
     .projects .project {
-        background: #333; /* Dark grey */
-        border: 1px solid #f5f5f5; /* Light border for contrast */
+        background: #333;
+        border: 1px solid #f5f5f5;
         border-radius: 20px;
         max-width: 65vw;
         margin: 0vw 55px 2.5vw 0vw;
