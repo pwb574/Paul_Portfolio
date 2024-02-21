@@ -26,6 +26,7 @@ display: inline-block;
 background: #333;
 box-shadow: 0.1vw 0.1vw 1vw 0.1vw black inset;
 padding: 1vw 1vw 1vw 2vw;
+margin: 0.5em 0em;
 border-radius: 2vw;
 }
 
