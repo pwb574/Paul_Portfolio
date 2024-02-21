@@ -27,9 +27,9 @@ input[type="radio"] {
 
 h2 {
     max-width: 100%;
-    font-size: 2.5em; /* Changed to em for scalability */
+    font-size: 2em; /* Changed to em for scalability */
     margin: 5px 0px 5px 0px;
-    color: #333; /* Darker text color for better readability */
+    color: #ffffff; 
 }
 
 .filters {
