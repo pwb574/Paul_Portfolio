@@ -88,8 +88,13 @@ input[type=text], select, textarea {
   color: #f5f5f5; /* Light text color for contrast */
 }
 
+.contact_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 .contact_form {
-  float: left;
   background: #333; /* Dark grey */
   box-shadow: 0.1vw 0.1vw 1vw 0.1vw black inset;
   padding: 2vw 3vw 1vw 1vw;
@@ -99,7 +104,6 @@ input[type=text], select, textarea {
 }
 
 .contact_info {
-  float: right;
   background: #1a2a6c; /* Deep blue */
   box-shadow: 0.1vw 0.1vw 0.5vw 0.1vw black inset;
   margin: 0vw 0vw 0vw 2vw;
@@ -162,5 +166,9 @@ input[type=text], select, textarea {
   }
   .pdf {
       max-width: 73vw;
+  }
+
+  .contact_container {
+    flex-direction: column;
   }
 }
