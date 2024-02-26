@@ -91,7 +91,7 @@ h2 {
     .projects {
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     }
-    .projects .figcaption {
+    .projects .project figcaption {
         font-size: 0.75em;
     }
 
@@ -100,6 +100,6 @@ h2 {
     }
 
     .filters label {
-        font-size: 1.25em;
+        font-size: 1em;
     }
 }
