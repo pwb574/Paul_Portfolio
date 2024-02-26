@@ -111,6 +111,7 @@ input[type=text], select, textarea {
   margin: 2vw 2vw;
   padding: 0vw 2vw 1vw 1vw;
   max-width: 45%;
+  max-height: 45px;
   border-radius: 20px;
   display: inline-block;
 }
