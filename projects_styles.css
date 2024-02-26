@@ -90,6 +90,7 @@ h2 {
 @media screen and (max-width: 900px) {
     .projects {
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        margin: 0vw;
     }
     .projects .project figcaption {
         font-size: 0.75em;
@@ -97,6 +98,11 @@ h2 {
 
     h2 {
         font-size: 1em; 
+    }
+
+    .filters {
+        text-align: left;
+        padding-top: 20px;
     }
 
     .filters label {
