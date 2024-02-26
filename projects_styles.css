@@ -16,8 +16,8 @@ input[type="radio"] {
 
 h2 {
     max-width: 100%;
-    font-size: 1em; /* Changed to em for scalability */
-    margin: 5px 0px 5px 0px;
+    font-size: 1.75vw; /* Changed to em for scalability */
+    /* margin: 5px 0px 5px 0px; */
     color: #ffffff; 
 }
 
@@ -56,7 +56,6 @@ h2 {
 
 .projects .project {
     background: #333;
-    font-size: 1vw;
     border: 1px solid #f5f5f5;
     border-radius: 20px;
     /* margin: 0vw 0vw 2.5vw 0vw; */
@@ -65,8 +64,8 @@ h2 {
 }
 
 .projects .project figcaption{
-    font-size: 1.75vw;
     line-height: 2.2vw;
+    font-size: 1vw;
     /* margin: 4px; */
     padding-bottom: 1vw;
 }
