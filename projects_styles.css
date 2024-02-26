@@ -88,19 +88,18 @@ h2 {
 }
 
 @media screen and (max-width: 900px) {
-    /* .projects {
-        grid-template-columns: repeat(1, 1fr);
-        margin: auto;
-    } */
-    /* .projects .project {
-        max-width: 65vw;
-        margin: 0vw 55px 2.5vw 0vw;
-    } */
+    .projects {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+    .projects .figcaption {
+        font-size: 0.75em;
+    }
+
+    h2 {
+        font-size: 1em; 
+    }
+
     .filters label {
         font-size: 1.25em;
     }
-    /* .filters {
-        margin: 0vw 55px 3vw 0vw;
-        text-align: center;
-    } */
 }
