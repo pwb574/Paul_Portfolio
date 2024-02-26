@@ -98,7 +98,7 @@ input[type=text], select, textarea {
 .contact_form {
   background: #333; /* Dark grey */
   box-shadow: 0.1vw 0.1vw 1vw 0.1vw black inset;
-  padding: 2vw 3vw 1vw 1vw;
+  padding: 2vw 0vw 1vw 1vw;
   max-width: 45%;
   border-radius: 20px;
   margin: 2vw 0vw;
@@ -151,9 +151,7 @@ input[type=text], select, textarea {
       font-size: 3vw;
       padding: 1vw;
   }
-  .header {
-      font-size: 8vw;
-  }
+  
   .main {
       max-width: 71vw;
       line-height: 7vw;
