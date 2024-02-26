@@ -15,7 +15,7 @@ input[type="radio"] {
 }
 
 h2 {
-    font-size: 1.75vw; 
+    font-size: 1.75em; 
     /* margin: 5px 0px 5px 0px; */
     color: #ffffff; 
 }
@@ -63,8 +63,8 @@ h2 {
 }
 
 .projects .project figcaption{
-    line-height: 2.2vw;
-    font-size: 1vw;
+    /* line-height: 2.2vw; */
+    font-size: 1.5em;
     /* margin: 4px; */
     /* padding-bottom: 1vw; */
 }
