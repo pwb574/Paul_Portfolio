@@ -1,7 +1,6 @@
 img {
     display: block;
-    max-width: 97%;
-    object-fit: cover; /* Changed to cover */
+    object-fit: cover; 
     border-radius: 20px;
     /* margin: 4px; */
 }
@@ -15,8 +14,7 @@ input[type="radio"] {
 }
 
 h2 {
-    max-width: 100%;
-    font-size: 1.75vw; /* Changed to em for scalability */
+    font-size: 1.75vw; 
     /* margin: 5px 0px 5px 0px; */
     color: #ffffff; 
 }
@@ -60,14 +58,14 @@ h2 {
     border-radius: 20px;
     /* margin: 0vw 0vw 2.5vw 0vw; */
     color: #f5f5f5;
-    padding: 1vw;
+    /* padding: 1vw; */
 }
 
 .projects .project figcaption{
     line-height: 2.2vw;
     font-size: 1vw;
     /* margin: 4px; */
-    padding-bottom: 1vw;
+    /* padding-bottom: 1vw; */
 }
 
 [value="All"]:checked~.filters [for="All"],
